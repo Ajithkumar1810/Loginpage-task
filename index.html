@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
        <div class="container">
@@ -29,13 +30,18 @@
             <img src="./images/logo.jpg"><br>
             <label name="l1"><b>Login to Your Account</b></label><br><br>
             <label name="l2">Login using social networks</lable><br><br>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+               
+                <br><br>
             <label name="line">----------------OR---------------</label><br>
-            <input name="email" type="email" id="email" placeholder="Email"  onkeyup="emailval()" required/><br >
+            <input name="email" type="email" id="email" placeholder="Email"  onkeyup="emailval()" /><br >
             <span id="s1"></span><br>
-            <input name="password" type="password" id="password" placeholder="password"onkeyup="passval()" required/><br >
+            <input name="password" type="password" id="password" placeholder="password"onkeyup="passval()" /><br >
             <span id="s2"></span><br>
            
-            <input  name="button" type="submit" value="Sign In">
+            <input  name="button" type="submit" value="Sign In" onclick="sumbitval()">
         </form>
         </div>
         <div class="c2">

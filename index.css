@@ -1,11 +1,25 @@
-/* 
+
   @media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
         .container{
             display: flex;
             flex-direction: column;
             height: 100vh !important;
         }
-    } */
+        label[name="l1"]{
+       
+            font-size: 14rem;
+            
+            
+        }
+        label[name="l2"]{
+           font-family:Arial, Helvetica, sans-serif;
+           color: rgb(62, 62, 50);
+            font-size: 1vw;
+        }
+    }
    body{
 align-items: center;
    
@@ -110,7 +124,13 @@ button[name="closebutton"]:hover{
     cursor: pointer;
 }
 span{
-    font-size: 1rem;
+    font-size: 1vmax;
     color: red;
 }
-   
+i{
+    padding: 2%;
+    background-color: rgb(133, 193, 193);
+    border-radius: 15%;
+    cursor: pointer;
+    
+}
