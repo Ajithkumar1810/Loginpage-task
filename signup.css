@@ -93,3 +93,9 @@ span{
     color: red;
     font-size: 2vmax;
 }
+span[id="s6"]{
+    color: red;
+    font-size: 2vmax;
+    text-align: center;
+    margin-left: 45%;
+}
