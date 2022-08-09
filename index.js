@@ -71,3 +71,6 @@ function sumbitval()
 
 
 }
+function next(){
+    window.location.replace("./images/signup.html")
+}
