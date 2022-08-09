@@ -45,7 +45,7 @@ h3{
     /* background-color: aqua; */
 }
 input[name="submit"]{
-    background-color: rgb(2, 3, 8);
+    background-color: rgb(106, 105, 101);
     color: aliceblue;
     margin-left: 20%;
     padding: 1%;
@@ -57,7 +57,7 @@ input[name="submit"]:hover{
 
 }
 input[name="back"]{
-    background-color: rgb(2, 3, 8);
+    background-color: rgb(106, 105, 101);
     color: aliceblue;
     margin-left: 15%;
     padding: 1%;
