@@ -10,6 +10,8 @@ body{
     align-items: center;
     /* background-color:linear-gradient(to right green,green,green); */
     background-color: aquamarine;
+    display: block;
+    justify-content: center;
     /* height: 100%; */
 }
 .container{
