@@ -42,7 +42,7 @@ function passval(){
     else{
         document.getElementById("s3").innerHTML="Password length must be atlest 8 character";
     }
-
+    sessionStorage.setItem("passworddb", password);
 }
 function cpassval(){
     const cpassword=document.getElementById("cpassword").value;
@@ -59,7 +59,7 @@ function cpassval(){
     else{
         document.getElementById("s4").innerHTML="Password does not match";
     }
-
+    sessionStorage.setItem("cpassworddb", cpassword);
 }
 function checking_phone(){
     const phone_1=document.getElementById("phone").value;
@@ -117,6 +117,7 @@ function finish(){
     else{
         document.getElementById("s3").innerHTML="Password length must be atlest 8 character";
     }
+    sessionStorage.setItem("passworddb", password);
     //cpassword
     const cpassword=document.getElementById("cpassword").value;
     // const password=document.getElementById("password").value;
@@ -133,6 +134,7 @@ function finish(){
     else{
         document.getElementById("s4").innerHTML="Password does not match";
     }
+    sessionStorage.setItem("cpassworddb", cpassword);
     //phone
     const phone_1=document.getElementById("phone").value;
     if( phone_1==="" ){
