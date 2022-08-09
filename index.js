@@ -62,7 +62,10 @@ function sumbitval()
    
     
     if(z===1 && x===1){
+        
+        // window.location.replace("./signup.html")
         alert("Sign in sucessfully");
+        
        
     }
     else{
@@ -72,5 +75,5 @@ function sumbitval()
 
 }
 function next(){
-    window.location.replace("./images/signup.html")
+    window.location.replace("./signup.html")
 }
