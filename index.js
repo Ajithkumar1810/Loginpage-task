@@ -21,7 +21,7 @@ function passval(){
     if(password===""){
         document.getElementById("s2").innerHTML="Its mandatory";
     }
-    else if(password.length>8){
+    else if(password.length>=8){
         document.getElementById("s2").innerHTML="";
        
     }

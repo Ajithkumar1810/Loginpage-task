@@ -16,26 +16,42 @@
             </div>
             <div class="sub1">
                 <h3>NAME:</h3>
-                <input type="text" placeholder="your name" name="username">
+                <div class="val">
+                <input type="text" placeholder="your name" name="username" id="username" onkeyup="namefun()">
+                <span id="s1"></span>
+            </div>
             </div>
             <div class="sub1">
                 <h3>EMAIL:</h3>
-                <input type="email" placeholder="your email" name="example@gamil.com">
+                <div class="val">
+                <input type="email" placeholder="your email" name="example@gamil.com" id="email" onkeyup="checking_email()">
+                <span id="s2"></span>
+            </div>
             </div>
             <div class="sub1">
+                
                 <h3>PASSWORD:</h3>
-                <input type="text" placeholder="password" name="password">
+                <div class="val">
+                <input type="text" placeholder="password" name="password"id="password" onkeyup="passval()">
+                <span id="s3"></span>
+            </div>
             </div>
             <div class="sub1">
                 <h3>CONFIRM PASSWORD:</h3>
-                <input type="text" placeholder="password" name="confirmpassword">
+                <div class="val">
+                <input type="text" placeholder="password" name="confirmpassword" id="cpassword" onkeyup="cpassval()">
+                <span id="s4"></span>
+            </div>
             </div>
             <div class="sub1">
                 <h3>PHONE:</h3>
-                <input type="number" placeholder="Phone number" name="phonenumber">
+                <div class="val">
+                <input type="number" placeholder="Phone number" name="phonenumber" id="phone" onkeyup="checking_phone()">
+                <span id="s5"></span>
+            </div>
             </div>
             <div class="sub1">
-                <input type="button" value="Back" name="back" onclick="history.back()">
+                <input type="button" value="Back" name="back" onclick="backpage()">
                 <input type="button" value="Submit" name="submit" onclick="">
             </div>
         </div>
