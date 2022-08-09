@@ -71,7 +71,6 @@ function sumbitval()
     if(z===1 && x===1){
         
         window.location.replace("./home.html")
-        alert("Sign in sucessfully");
         
        
     }
